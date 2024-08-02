@@ -1,0 +1,327 @@
+@font-face {
+    font-family: kurdishfont;
+    src: url(UniMahanMohammed.ttf);
+}
+body{
+    background-color: black;
+}
+
+/* HEADER */
+
+header{
+    color: white;
+    position: fixed;
+    background-color: black;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    z-index: 10000;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 0px 12px white;
+}
+
+.navbar{
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+}
+.navbar img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* TOP */
+
+.container{
+    margin-top: 100px ;
+    width: 100%;
+    height: 100%;
+    margin-inline: auto;
+}
+
+.top{
+
+    text-align: center;
+    width:100%;
+    height: 500px;
+    margin: 0px auto;
+}
+
+.top .image{
+    position: relative;
+    text-align: center;
+
+    width: 100%;
+    height: 500px;
+
+}
+
+.top .image img{
+    position: relative;
+    object-fit: cover;
+
+    width: 100%;
+    height: 500px;
+    filter: brightness(60%);
+
+}
+
+.top .box{
+    position: absolute;
+    inset: 0;
+    color: white;
+
+    margin-inline: auto;
+    margin-top: 200px;
+
+    max-width: 400px;
+    height: 300px;
+}
+
+.top .box .heading{
+    padding: 10px;
+    font-family: "kurdishfont";
+    font-weight: bold;
+    font-size: 28px;
+    text-shadow: 0px 0px 12px black;
+
+}
+
+.top .box .text{
+    padding: 10px;
+    font-family: "kurdishfont";
+    font-size: 18px;
+    text-shadow: 0px 0px 12px black;
+
+}
+
+.top .box .button{
+    padding: 10px;
+
+
+}
+.top .box .button button{
+    padding: 5px;
+    font-size: 16px;
+    font-family: "kurdishfont";
+    border: none;
+    width: 180px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px black;
+    transition: font-size 0.5s;
+
+}
+.top .box .button button:hover{
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.socialbar{
+
+    text-align: center;
+    margin-inline:2px ;
+    margin-bottom: 10px;
+
+}
+.socialbar button{
+    background: none;
+    border: none;
+}
+.socialbar button:hover{
+    cursor: pointer;
+}
+.socialbar button img{
+    width: 25px;
+}
+.socialbar button img:hover{
+    -webkit-filter: drop-shadow(0px 0px 8px black)
+    drop-shadow(0px 0px 8px black);
+filter: drop-shadow(0px 0px 8px black) 
+drop-shadow(0px 0px 8px black);
+}
+
+/* LISTBAR */
+
+.listbar{
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    flex-direction: row-reverse;
+    color: white;
+    margin-top: 50px;
+    max-width: 1200px;
+    width:100%;
+    height: 100px;
+    margin-inline: auto;
+}
+
+.l{
+    border: none;
+    display: flex;
+    background: none;
+    color: white;
+    padding-top: 15px;
+    margin-block: 5px;
+    margin-inline: auto;
+    transition: color 0.5s;
+}
+
+.l:hover{
+    color: orange;
+    cursor: pointer;
+}
+.l .image{
+    width: 40px;
+    height: 40px;
+}
+.l .text{
+    font-family: "kurdishfont";
+    font-size: 22px;
+    text-align: right;
+    padding-right: 3px;
+    padding-top: 8px;
+    width: 200px;
+    height: 30px;
+}
+
+.l .image img{
+    width: 40px;
+    height: 40px;
+}
+
+/* INFO */
+
+.info{
+    text-align: center;
+    margin-inline: auto;
+    width:100%;
+    height: 100%;
+}
+
+.info .heading{
+    margin-inline: auto;
+    margin-top: 10px;
+    color: orange;
+    text-align: right;
+    font-family: "kurdishfont";
+    font-size: 30px;
+    width: 98%;
+}
+
+.con{
+    display: inline-flex;
+    margin-inline: auto;
+}
+
+.info .image{
+
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-inline: auto;
+    width: 300px;
+}
+.info .image img{
+    width: 300px;
+    box-shadow: 0px 0px 12px orange;
+}
+
+.info .box{
+
+    color: white;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "kurdishfont";
+    
+    margin-inline: auto;
+    max-width: 70%;
+}
+
+/* FOOTER */
+
+.footer{
+    display: inline;
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+
+}
+
+.foot{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-top: 1px solid white;
+    width: 100%;
+    height: 100px;
+}
+
+
+.f3 .text{
+    font-size: 20px;
+    font-family: "kurdishfont";
+    margin-top: 20px;
+}
+
+.f2 img{
+        margin-top: 10px;
+        object-fit: cover;
+        width: 80px;
+        height: 80px;
+
+}
+
+.f1 .text{
+    font-size: 15px;
+    font-family: "kurdishfont";
+    margin-top: 25px;
+}
+
+.f1 .text a{
+    text-decoration: none;
+    color: orange;
+    transition: font-size 0.5s;
+}
+
+.f1 .text a:hover{
+    font-size: 18px ;
+}
+
+.line   {
+    border: 2px solid white;
+    width: 220px;
+    margin-inline: auto;
+    box-shadow: 0px 0px 12px black;
+}
+
+@media only screen and (max-width:767px){
+    .con{
+        display: block;
+    }
+    .info .box{
+        max-width: 95%;
+        margin-bottom: 20px;
+    }
+    .f1 .text{
+        font-size: 12px;
+    }
+    .f2 img{
+
+
+        width: 50px;
+        height: 50px;
+
+}
+    .f3 .text{
+    font-size: 15px;
+
+    }
+ 
+}
+  
